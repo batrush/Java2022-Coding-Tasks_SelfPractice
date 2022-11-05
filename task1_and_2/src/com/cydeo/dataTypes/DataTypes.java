@@ -1,6 +1,6 @@
 package com.cydeo.dataTypes;
 
-public class Datatypes {
+public class DataTypes {
 
 	public static void main(String[] args) {
 
@@ -11,6 +11,8 @@ public class Datatypes {
 		number = -129;// int
 		
 		char character = 'C';
+
+		float n1 = 12134454566767f;
 
 		String str = "Can";
 		
