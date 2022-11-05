@@ -11,10 +11,10 @@ public class SesliHarfler {
             case 'I':
             case 'O':
             case 'U':
-                System.out.println("Kalın sesli harf");
+                System.out.println(harf + " Kalın sesli harf");
                 break;
             default:
-                System.out.println("İnce sesli harf");
+                System.out.println(harf + " İnce sesli harf");
 
         }
 
