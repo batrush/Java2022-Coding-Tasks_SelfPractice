@@ -29,8 +29,8 @@ public class StringsDemo {
         System.out.println(yeniMesaj);
         System.out.println(msg.substring(2, 5));
 
-        for (String kelime : msg.split(" ")) {
-            System.out.println(kelime);
+        for (String word : msg.split(" ")) {
+            System.out.println(word);
         }
 
         System.out.println("-----------------------");
