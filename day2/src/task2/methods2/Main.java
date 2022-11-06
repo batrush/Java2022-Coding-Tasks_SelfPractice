@@ -5,10 +5,12 @@ public class Main {
 
     public static void main(String[] args) {
         //String mesaj = "Bugün hava çok güzel";
-        String yeniMesaj = findCity();
-        System.out.println(yeniMesaj);
+        String str = findCity();
+        System.out.println(str);
+
         int total = sum(5,7);
         System.out.println(total);
+
         int total1 = sum2(2,3,4,5,6,7,8);
         System.out.println(total1);
 
