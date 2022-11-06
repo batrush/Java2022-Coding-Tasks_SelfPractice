@@ -47,8 +47,25 @@ public class Main {
         System.out.println("</ul>");  // in line 41-45 we return html file , so that we can see them in the web page
 
 
+        System.out.println("-----------------------------------------------------------");
+
+        IndividualCustomer individualCustomer = new IndividualCustomer();
+        individualCustomer.setId(1);
+        individualCustomer.setPhone("05354565656565");
+        individualCustomer.setCustomerNumber("123");
+        individualCustomer.setFirstName("Can");
+        individualCustomer.setLastName("Ayhan");
 
 
+        CorporateCustomer corporateCustomer = new CorporateCustomer();
+        corporateCustomer.setId(2);
+        corporateCustomer.setCompanyName("Kodlama.io");
+        corporateCustomer.setPhone("0545556566566");
+        corporateCustomer.setTaxNumber("111111111111111111");
+        corporateCustomer.setCustomerNumber("54321");
+
+
+        Customer[] customers = {individualCustomer,corporateCustomer};
 
 
 
