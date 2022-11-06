@@ -2,7 +2,8 @@ package task2.classesWithAttributes;
 
 public class ProductManager {
 	public void save(Product product) {
-		//JDBC
+
+		//JDBC connects to DB
 		System.out.println("product is saved " + product.getName() + " - " + product.getDescription());
 	}
 	
