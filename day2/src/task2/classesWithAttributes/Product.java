@@ -12,7 +12,7 @@ public class Product {
     private String code;
 
 
-    public Product() {
+    public Product() { // default constructor
 
     }
 
