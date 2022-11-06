@@ -9,11 +9,13 @@ public class Main {
 
         Product product1 = new Product();
         //                set value
-        product1.name = "Delonghi Caffee M";
-        product1.unitPrice = 7500;
-        product1.discount = 7;
-        product1.unitsInStock = 3;
-        product1.imageUrl = "delonghi.jpg";
+        //product1.name = "Delonghi Caffee M";
+        product1.setName("Delonghi Caffee M");
+        //product1.unitPrice = 7500;
+        product1.setUnitPrice(7500);
+        product1.setDiscount(7);
+        product1.setUnitsInStock(3);
+        product1.setImageUrl("delonghi.jpg");
 
         //                   get value
         //System.out.println(product1.name);
@@ -21,26 +23,26 @@ public class Main {
         //p1 has name,unitPrice,discount,unitInStock....
 
         Product product2 = new Product();
-        product2.name = "Smeg Caffee M";
-        product2.unitPrice = 6500;
-        product2.discount = 8;
-        product2.unitsInStock =23;
-        product2.imageUrl = "delonghi.jpg";
+        product2.setName("Smeg Caffee M");
+        product2.setUnitPrice( 6500 );
+        product2.setDiscount(8);
+        product2.setUnitsInStock(23);
+        product2.setImageUrl("delonghi.jpg");
 
 
         Product product3 = new Product();
-        product3.name = "Kitchen Aid Caffee M";
-        product3.unitPrice = 4500;
-        product3.discount = 9;
-        product3.unitsInStock = 2;
-        product3.imageUrl = "delonghi.jpg";
+        product3.setName("Kitchen Aid Caffee M");
+        product3.setUnitPrice(4500);
+        product3.setDiscount(9);
+        product3.setUnitsInStock(2);
+        product3.setImageUrl("delonghi.jpg");
 
 
         Product[] products = {product1,product2,product3};
 
         System.out.println("<ul>");
         for (Product product : products) {
-            System.out.println( "<li>" + product.name + " : " + product.unitPrice + "</li>");
+            System.out.println( "<li>" + product.getName() + " : " + product.getUnitPrice() + "</li>");
         }
         System.out.println("</ul>");  // in line 41-45 we return html file , so that we can see them in the web page
 
