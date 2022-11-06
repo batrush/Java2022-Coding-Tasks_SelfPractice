@@ -15,7 +15,7 @@ public class Main {
         customerManager.Remove();
         customerManager.Update();
 
-        //value type
+        //value type    in Stack
         int sayi1 = 10;
         int sayi2 = 20;
         sayi2 = sayi1;
