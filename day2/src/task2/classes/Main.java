@@ -4,11 +4,13 @@ public class Main {
 
     public static void main(String[] args) {
 
+        //Stack : ref type ->> cm
+        //Heap: new CustomerManager
 
         //reference type
-        CustomerManager customerManager = new CustomerManager();
-        CustomerManager customerManager2 = new CustomerManager();
-        customerManager = customerManager2;
+        CustomerManager customerManager = new CustomerManager(); // 101
+        CustomerManager customerManager2 = new CustomerManager();// 102
+        customerManager = customerManager2; // means : cM's reference num = cM2's reference num, it became 102
         customerManager.Add();
         customerManager.Remove();
         customerManager.Update();
